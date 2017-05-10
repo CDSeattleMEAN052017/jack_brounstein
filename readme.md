@@ -64,6 +64,14 @@ JavaScript Library|
 Button Fun|
 Math Module **GitHub**|
 
+Optional|
+---|
+Hunting GitHub|
+DojoQuery|
+Fib + Nacci|
+Game Ideas|
+
+
 ### Thursday, April 11
 
 Express: Building a web server in JavaScript
