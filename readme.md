@@ -15,7 +15,7 @@ Don't have access to the organization?  Send me your GitHub username on Slack.
 
 ## Week 1
 
-### Monday, April 8
+### Monday, May 8
 
 JavaScript fundamentals
 
@@ -36,7 +36,7 @@ Optional|
 Pok&#233;mon Battle|
 Evolving Syntax|
 
-### Tuesday, April 9
+### Tuesday, May 9
 
 OOP
 
@@ -52,7 +52,7 @@ Optional|
 Bind, Call, and Apply|
 
 
-### Wednesday, April 10
+### Wednesday, May 10
 
 Advanced JavaScript: Callbacks, closures, immediate functions
 
@@ -72,7 +72,7 @@ Fib + Nacci|
 Game Ideas|
 
 
-### Thursday, April 11
+### Thursday, May 11
 
 Express: Building a web server in JavaScript
 
@@ -83,7 +83,7 @@ Assignments|
 Survey Form **GitHub**|
 
 
-### Friday, April 12
+### Friday, May 12
 
 Oh no, Mongo!
 
@@ -98,7 +98,7 @@ Message Board **GitHub**|
 
 ## Week 2
 
-### Monday, April 15
+### Monday, May 15
 
 Modularization: Turning one giant server file into several smaller files
 
@@ -111,19 +111,11 @@ Assignments|
 Modularized Mongoose|
 1955 API **GitHub**|
 
-### Tuesday, April 16
+### Tuesday, May 16
 
 Angular 4!  ES2016, TypeScript, Components, and Event Listeners.
 
-We use the Angular command-line interface (CLI) to create/manage our Angular projects, but the platform doesn't do a great job of explaining how to get or use it.  You can find details [here](https://cli.angular.io/), but the important commands are:
-
-* `npm install -g @angular/cli` (this installs the CLI globally, so you should only need to do this once)
-* `ng new project-name` (this may take a while)
-* `ng generate component examples`
-* `ng generate service example`
-* `ng serve`
-
-`ng serve` starts a virtual server, and after running it you should be able to see your page on http://localhost:4200
+Read TypeScript, Component - Data, and Component - Events
 
 For all of these assignments, try to replicate the functionality using only one component.  (We'll discuss multiple, possibly nested, components tomorrow)
 
@@ -137,9 +129,11 @@ Optional|
 ---|
 Javascript & TypeScript Basic|
 
-### Wednesday, April 17
+### Wednesday, May 17
 
 Nested components, inputs and output
+
+Read Architecture & Nested Components
 
 For these assignments, recreate the functionality, but don't use a service.  (Services will be covered tomorrow.)  For AlwaysNote, remember to use `@Input` and `@Output`!
 
@@ -150,11 +144,11 @@ Users|
 User Validations **GitHub**|
 AlwaysNote **GitHub**|
 
-### Thursday, April 18
+### Thursday, May 18
 
 Angular routes and services
 
-Read about the HTTP module, which we'll be using tomorrow to make requests to our server once we have a full MEAN app.
+Read Routing & Observables and Services, Promises, & HTTP.  Note that we'll be using the HTTP module tomorrow to make requests to our server once we have a full MEAN app.
 
 Assignments|
 ---|
@@ -162,7 +156,7 @@ Routing|
 Routes and Subroutes|
 
 
-### Friday, April 19
+### Friday, May 19
 
 Angular review + full MEAN!
 
@@ -181,13 +175,13 @@ MEAN Friends **GitHub**|
 
 ## Week 3
 
-### Monday, April 22
+### Monday, May 22
 
 Assignments|
 ---|
 Login and Registration **GitHub**|
 
-### Tuesday, April 23
+### Tuesday, May 23
 
 As of now, you should have all the tools you need to pass the belt exam.  The next few days are just practicing and reinforcing this knowlege.
 
@@ -199,7 +193,7 @@ Optional|
 ---|
 Use angular cookies and/or express-session to generate a persistent user after login|
 
-### Wednesday, April 24
+### Wednesday, May 24
 
 Deployment
 
@@ -207,12 +201,12 @@ Assignments|
 ---|
 Mini-MEAN store **GitHub**|
 
-### Thursday, April 25
+### Thursday, May 25
 
 Assignments|
 ---|
 Discussion Board **GitHub**|
 
-### Friday, April 26
+### Friday, May 26
 
 BELT EXAM!
