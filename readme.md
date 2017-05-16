@@ -113,7 +113,7 @@ Modularized Mongoose|
 
 ### Tuesday, April 16
 
-Angular 4!  ES2016, TypeScript, and Components.
+Angular 4!  ES2016, TypeScript, Components, and Event Listeners.
 
 We use the Angular command-line interface (CLI) to create/manage our Angular projects, but the platform doesn't do a great job of explaining how to get or use it.  You can find details [here](https://cli.angular.io/), but the important commands are:
 
@@ -124,6 +124,8 @@ We use the Angular command-line interface (CLI) to create/manage our Angular pro
 * `ng serve`
 
 `ng serve` starts a virtual server, and after running it you should be able to see your page on http://localhost:4200
+
+For all of these assignments, try to replicate the functionality using only one component.  (We'll discuss multiple, possibly nested, components tomorrow)
 
 Assignments|
 ---|
@@ -137,23 +139,25 @@ Javascript & TypeScript Basic|
 
 ### Wednesday, April 17
 
-Angular services
+Nested components, inputs and output
+
+For these assignments, recreate the functionality, but don't use a service.  (Services will be covered tomorrow.)  For AlwaysNote, remember to use `@Input` and `@Output`!
 
 Assignments|
 ---|
 Task and Inputs **GitHub**|
 Users|
 User Validations **GitHub**|
+AlwaysNote **GitHub**|
 
 ### Thursday, April 18
 
-Angular routes
+Angular routes and services
 
-Read about the HTTP module and observables, but you don't need to do those assignments; we'll bring in HTTP requests to our server once we have a full MEAN app.
+Read about the HTTP module, which we'll be using tomorrow to make requests to our server once we have a full MEAN app.
 
 Assignments|
 ---|
-AlwaysNote **GitHub**|
 Routing|
 Routes and Subroutes|
 
