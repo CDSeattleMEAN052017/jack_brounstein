@@ -1,0 +1,14 @@
+<h1>Books!!!!!!!!</h1>
+<ul>
+	<li *ngFor="let book of books">{{book.title}} by {{book.author}}</li>
+</ul>
+
+<h3>New Book</h3>
+<form (submit)="create_book()" >
+	<p>Title: <input type="text" [(ngModel)]="new_book.title" name="title"></p>
+	<p>Author: <input type="text" [(ngModel)]="new_book.author" name="author"></p>
+	<p>Pages: <input type="number" [(ngModel)]="new_book.pages" name="pages"></p>
+	<p><input type="submit" value="create"></p>
+</form>
+
+<p>{{new_title}}</p>
