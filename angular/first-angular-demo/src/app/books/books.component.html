@@ -1,7 +1,10 @@
 <h1>Books!!!!!!!!</h1>
 <ul>
-	<li *ngFor="let book of books">{{book.title}} by {{book.author}}</li>
+	<li *ngFor="let book of books" (click)="show_book(book)">{{book.title}} by {{book.author}}</li>
 </ul>
+
+<app-books-detail *ngIf="chosen_book" [this_book]="chosen_book"></app-books-detail>
+<app-books-edit *ngIf="chosen_book" [this_book]="chosen_book" (save)="update_book($event)" ></app-books-edit>
 
 <h3>New Book</h3>
 <form (submit)="create_book()" >
