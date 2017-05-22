@@ -9,7 +9,8 @@ import { BooksListComponent } from './books/books-list/books-list.component';
 import { BooksNewComponent } from './books/books-new/books-new.component';
 
 import { BooksService } from "./books/books.service";
-import { BooksDetailComponent } from './books/books-list/books-detail/books-detail.component'
+import { BooksDetailComponent } from './books/books-list/books-detail/books-detail.component';
+import { FilterPipe } from './books/filter.pipe'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BooksDetailComponent } from './books/books-list/books-detail/books-deta
     BooksComponent,
     BooksListComponent,
     BooksNewComponent,
-    BooksDetailComponent
+    BooksDetailComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

@@ -10,11 +10,12 @@ import { Book } from "./../book"
 export class BooksListComponent implements OnInit {
   @Input() books: Book[]
   chosen_book: Book
+  search_text: string
 
   constructor() { }
 
   ngOnInit() {
-    
+    // this.search_text = ""
   }
 
   choose_book(book: Book){

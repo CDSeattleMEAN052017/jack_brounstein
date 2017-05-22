@@ -1,10 +1,11 @@
+<p>Filter: <input type="text" [(ngModel)]="search_text" name="search_text"></p>
 <table>
 	<tr><th>Title</th>
 		<th>Author</th>
 		<th>Created At</th>
 		<th>Actions</th>
 	</tr>
-	<tr *ngFor="let book of books">
+	<tr *ngFor="let book of books | filter:search_text ">
 		<td>{{book.title}}</td>
 		<td>{{book.author}}</td>
 		<td>{{book.createdAt | date:"short"}}</td>
